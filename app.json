@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Task3",
+    "slug": "Task3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon/android/icon.png",
+    "scheme": "carrotlab",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash/android/xxxhdpi/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.carrotlab.task3",
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/splash/ios/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/images/icon/ios/icon.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app will optionally use Camera to take pictures",
+        "NSFaceIDUsageDescription": "This app will optionally use Face ID or Finger ID to improve login experiencie"
+      }
+    },
+    "android": {
+      "package": "com.carrotlab.task3",
+      "versionCode": 1,
+      "permissions": [],
+      "splash": {
+        "mdpi": "./assets/images/splash/android/hdpi/splash.png",
+        "hdpi": "./assets/images/splash/android/mdpi/splash.png",
+        "xhdpi": "./assets/images/splash/android/xhdpi/splash.png",
+        "xxhdpi": "./assets/images/splash/android/xxhdpi/splash.png",
+        "xxxhdpi": "./assets/images/splash/android/xxxhdpi/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/images/icon/android/icon.png"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
